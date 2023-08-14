@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.box {
+  margin: 150px auto;
+  padding: 25px;
+  border-radius: 16px;
+  background-color: #121212;
+  width: 400px;
+}
+div.box > h1 {
+  font-family: sans-serif;
+  color: aqua;
+  text-align: center;
+}
+div.box > p {
+  text-align: justify;
+  color: white;
+  margin-top: 20px;
+}
+div.box > span {
+  color: gray;
+  display: flex;
+  margin-top: 8px;
+}
